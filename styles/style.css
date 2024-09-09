@@ -1,116 +1,89 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
- }
- 
- body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
     background-color: #f4f4f4;
- }
- 
- nav {
+    }
+    
+    header {
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
- }
- 
- nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
- }
- 
- nav ul li {
-    margin: 0 15px;
- }
- 
- nav ul li a {
-    color: #fff;
-    text-decoration: none;
- }
- 
- .container {
-    margin-top: 20px;
- }
- 
- .page {
-    display: none;
- }
- 
- #home {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    }
+    
+    nav {
+    background-color: #444;
+    overflow: hidden;
+    }
+    
+    nav a {
+    float: left;
     display: block;
- }
- 
- h1 {
-    margin-bottom: 20px;
- }
- 
- .flex-container {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: #555;
+    }
+    
+    .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
- }
- 
- .flex-item {
-    flex: 1;
-    margin: 10px;
-    text-align: center;
- }
- 
- img {
+    flex-wrap: wrap;
+    padding: 20px;
+    }
+    
+    .container img, .container gif {
     max-width: 100%;
     height: auto;
-    border: 2px solid #ccc;
- }
- 
- table {
+    }
+    
+    .table-container, .form-container {
+    width: 45%;
+    margin-bottom: 20px;
+    }
+    
+    table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
- }
- 
- table, th, td {
-    border: 1px solid #ccc;
- }
- 
- th, td {
+    margin-bottom: 20px;
+    }
+    
+    table, th, td {
+    border: 1px solid black;
+    }
+    
+    th, td {
     padding: 10px;
     text-align: left;
- }
- 
- form {
-    margin-top: 20px;
- }
- 
- label {
-    display: block;
-    margin-bottom: 5px;
- }
- 
- input[type="text"],
- input[type="email"],
- textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    }
+    
+    form {
+    background-color: #f9f9f9;
+    padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
- }
- 
- input[type="submit"] {
+    }
+    
+    form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    }
+    
+    form input[type="submit"] {
     background-color: #333;
-    color: #fff;
+    color: white;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
- }
- 
- input[type="submit"]:hover {
+    }
+    
+    form input[type="submit"]:hover {
     background-color: #555;
- }
- 
- 
+    }
+    

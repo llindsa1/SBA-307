@@ -1,77 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>3 Page Website</title>
-   <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <!-- Navigation -->
-   <nav>
-       <ul>
-           <li><a href="index.html">Home</a></li>
-           <li><a href="about.html">About</a></li>
-           <li><a href="contact.html">Contact</a></li>
-       </ul>
-   </nav>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
 
-   <!-- Page Content -->
-   <div class="container">
-       <!-- Home Page -->
-       <div id="home" class="page">
-           <h1>Welcome to the Home Page</h1>
-           <div class="flex-container">
-               <div class="flex-item">
-                   <img src="image.jpg" alt="A sample image">
-               </div>
-               <div class="flex-item">
-                   <p>This is some text next to the image.</p>
-               </div>
-               <div class="flex-item">
-                   <img src="animation.gif" alt="A sample gif">
-               </div>
-           </div>
-       </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
-       <!-- About Page -->
-       <div id="about" class="page">
-           <h1>About Us</h1>
-           <table>
-               <tr>
-                   <th>Name</th>
-                   <th>Age</th>
-                   <th>Occupation</th>
-               </tr>
-               <tr>
-                   <td>John Doe</td>
-                   <td>30</td>
-                   <td>Developer</td>
-               </tr>
-               <tr>
-                   <td>Jane Doe</td>
-                   <td>25</td>
-                   <td>Designer</td>
-               </tr>
-           </table>
-       </div>
-
-       <!-- Contact Page -->
-       <div id="contact" class="page">
-           <h1>Contact Us</h1>
-           <form>
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="name" required><br><br>
-
-               <label for="email">Email:</label>
-               <input type="email" id="email" name="email" required><br><br>
-
-               <label for="message">Message:</label>
-               <textarea id="message" name="message" required></textarea><br><br>
-
-               <input type="submit" value="Submit">
-           </form>
-       </div>
-   </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="image.jpg" alt="Example Image">
+        </div>
+        <div class="gif-container">
+            <img src="animated.gif" alt="Example GIF">
+        </div>
+    </div>
 </body>
 </html>
